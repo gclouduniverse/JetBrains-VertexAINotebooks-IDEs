@@ -1,4 +1,4 @@
-FROM registry.jetbrains.team/p/prj/containers/projector-idea-c:latest
+FROM registry.jetbrains.team/p/prj/containers/projector-idea-u:latest
 
 LABEL com.google.environment="IDEA"
 

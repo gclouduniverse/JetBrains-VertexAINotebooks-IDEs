@@ -1,3 +1,0 @@
-steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/jetbrains-vertexai-ides/github.com/gclouduniverse/vertexainotebooks-idea-c:$COMMIT_SHA', '-f', 'idea-c.dockerfile', '.' ]
